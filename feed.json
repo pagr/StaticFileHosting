@@ -7,22 +7,21 @@
             "picture":"https://cdn-yams.schibsted.com/api/v1/sports-pro/images/7d/7dca22f2-f666-4d73-8ea2-e725db004a3b?rule=original",
             "link":null,
             "position": {
-            "type": "point",
-            "coordinate": [
-                34.854503,
-                -117.087665
-            ]
+                "type": "point",
+                "radius":500,
+                "coordinate": {
+                    "latitude": 59.331344,
+                    "longitude": 18.059742
+                }
             },
-            "radius":500,
-            "polygonAffectedArea": {
-            "type":"Polygon",
-            "coordinates":[ [
-            [ 31.8, -5 ],
-            [ 31.8, -4.7 ],
-            [ 32, -4.7 ],
-            [ 32, -5 ],
-            [ 31.8, -5 ]
-            ] ]
+            "affectedArea": {
+                "type":"polygon",
+                "coordinates":[ 
+                    { "latitude": 59.331565, "longitude": 18.059529 },
+                    { "latitude": 59.331406, "longitude": 18.060473 },
+                    { "latitude": 59.330870, "longitude": 18.059786 },
+                    { "latitude": 59.331012, "longitude": 18.058295 }
+                ]
             },
             "polygonShouldGetNotis":null,
             "sendToAll":false,
