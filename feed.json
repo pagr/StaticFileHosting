@@ -1,15 +1,35 @@
 {
-    "cards": [
-        {
-            "title": "title",
-            "body": "body",
-            "image": "https://www.knowit.se/globalassets/system/icons-and-logotypes/knowit-logotypes/knowit-logo-b.png/Small50",
-            "location": {
-                "latitude": 59.331628, 
-                "longitude": 18.062188,
-                "radius": 123
-            }
-        }
-
-    ]
+    "heading":"Krisinformationm",
+    "subheading":"Brand vid Rådmansgatan 38",
+    "body":"En brand har eskalerat vid korsningen",
+    "picture":"https://cdn-yams.schibsted.com/api/v1/sports-pro/images/7d/7dca22f2-f666-4d73-8ea2-e725db004a3b?rule=original",
+    "link":null,
+    "position": {
+       "type": "point",
+       "coordinate": [
+           34.854503,
+           -117.087665
+       ]
+       },
+    "radius":500,
+    "polygonAffectedArea": {
+    "type":"Polygon",
+       "coordinates":[ [
+       [ 31.8, -5 ],
+       [ 31.8, -4.7 ],
+       [ 32, -4.7 ],
+       [ 32, -5 ],
+       [ 31.8, -5 ]
+       ] ]
+    },
+    "polygonShouldGetNotis":null,
+    "sendToAll":false,
+    "startTime":"01/01/2019",
+    "endTime":null,
+    "eventType":1,
+    "sender":"Sos Alarm",
+    "createdBy": {
+    "name": "Anna Johansson",
+    "createdTime" : "01/01/2019 06:50"
+    }
 }
