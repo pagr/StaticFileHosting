@@ -33,6 +33,40 @@
                 "name": "name",
                 "createdTime" : "2019-02-22T11:31:03Z"
             }
+        },
+        {
+            "heading":"header2",
+            "subheading":"subheading2",
+            "body":"body2",
+            "picture": null,
+            "link":null,
+            "position": {
+                "type": "point",
+                "radius":500,
+                "coordinate": {
+                    "latitude": 59.331344,
+                    "longitude": 18.059742
+                }
+            },
+            "affectedArea": {
+                "type":"polygon",
+                "coordinates":[ 
+                    { "latitude": 59.331565, "longitude": 18.059529 },
+                    { "latitude": 59.331406, "longitude": 18.060473 },
+                    { "latitude": 59.330870, "longitude": 18.059786 },
+                    { "latitude": 59.331012, "longitude": 18.058295 }
+                ]
+            },
+            "polygonShouldGetNotis":null,
+            "sendToAll":false,
+            "startTime":"2019-02-22T11:31:03Z",
+            "endTime":null,
+            "eventType":1,
+            "sender":"Sender",
+            "createdBy": {
+                "name": "name",
+                "createdTime" : "2019-02-22T11:31:03Z"
+            }
         }
     ]
 }
