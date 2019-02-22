@@ -1,0 +1,15 @@
+{
+    "cards": [
+        {
+            "title": "title",
+            "body": "body",
+            "image": "https://www.knowit.se/globalassets/system/icons-and-logotypes/knowit-logotypes/knowit-logo-b.png/Small50",
+            "location": {
+                "latitude": 59.331628, 
+                "longitude": 18.062188,
+                "radius": 123
+            }
+        }
+
+    ]
+}
