@@ -1,9 +1,9 @@
 {
     "cards": [
         {
-            "heading":"Krisinformationm",
-            "subheading":"Brand vid Rådmansgatan 38",
-            "body":"En brand har eskalerat vid korsningen",
+            "heading":"header",
+            "subheading":"subheading",
+            "body":"body",
             "picture":"https://cdn-yams.schibsted.com/api/v1/sports-pro/images/7d/7dca22f2-f666-4d73-8ea2-e725db004a3b?rule=original",
             "link":null,
             "position": {
@@ -26,13 +26,13 @@
             },
             "polygonShouldGetNotis":null,
             "sendToAll":false,
-            "startTime":"01/01/2019",
+            "startTime":"2019-02-22T11:31:03Z",
             "endTime":null,
             "eventType":1,
-            "sender":"Sos Alarm",
+            "sender":"Sender",
             "createdBy": {
-                "name": "Anna Johansson",
-                "createdTime" : "01/01/2019 06:50"
+                "name": "name",
+                "createdTime" : "2019-02-22T11:31:03Z"
             }
         }
     ]
